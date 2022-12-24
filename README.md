@@ -1,4 +1,7 @@
-# `tweetback` Twitter Archive
+# `tweetback` Twitter Archive (for @piraces_)
+
+[![Fetch new data & publish page](https://github.com/piraces/twitter_archive/actions/workflows/main.yml/badge.svg)](https://github.com/piraces/twitter_archive/actions/workflows/main.yml)
+
 
 Take ownership of your Twitter data. First talked about at [Jamstack Conf 2019](https://www.zachleat.com/web/own-your-content/) and in [this blog post](https://www.zachleat.com/web/own-my-tweets/).
 
