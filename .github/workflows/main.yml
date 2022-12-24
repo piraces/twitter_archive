@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: 18.x
     - run: npm ci
-    - run: export TWITTER_BEARER_TOKEN=${{ secrets.TWITTER_BEARER_TOKEN }}
+    - run: export TWITTER_BEARER_TOKEN="${{ secrets.TWITTER_BEARER_TOKEN }}"
     - run: npm run fetch-new-data
     - run: npm run build
     - name: Deploy to Github Pages
